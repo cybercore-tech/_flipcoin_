@@ -1,3 +1,2 @@
-# commit-to-guthib
->progress<
-fuck bitcoin
+What is cybercoin project all about.
+
