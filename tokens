@@ -1,3 +1,4 @@
+runonkarma
 {
   "_id": "5fd343796c6314e1c0f4b21a",
   "schema_version": 79,
@@ -5,7 +6,7 @@
   "tokenDetails": {
     "decimals": 0,
     "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
-    "timestamp": "2019-04-03 11:28:58",
+    "timestamp": "2021-10-01 11:28:58",
     "timestamp_unix": 1554290938,
     "transactionType": "GENESIS",
     "versionType": 1,
