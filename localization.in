@@ -1,1 +1,582 @@
+Genesis
+{
+  "_id": "5fd343796c6314e1c0f4b200",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "1e622f4ac075ab83f260e57b6df41352018e760608dc450f8f250aa3b8a59766",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "1000",
+        "499995000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "1000",
+        "address": "simpleledger:qzk92nt0xdxc9qy3yj53h9rjw8dk0s9cqqsrzm5cny",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": "e7d547f03ab33fc65515fff054da6df733e5ec691d653c46900d5745beed9d77",
+        "status": "SPENT_INVALID_SLP",
+        "invalidReason": "Output burned in an invalid SLP transaction"
+      },
+      {
+        "slpAmount": "499995000",
+        "address": "simpleledger:qrqqhpgnvnw85yj5nkx77dlu27unqlatn5tal83c7p",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "29f8e67034efd44bf6ac6ca1f4793b695f3807047748929f279a2b48d26f1a60",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qpdvpa44m0ss5e0sf7z3ftv6k945qt599qtf4uvqj5",
+        "txid": "102e1e7d7a7cc9ce7704f54d23b6e17fe2acce90167d63c9795334363ed15ade",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "slpAmount": "499996000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": 578363
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b202",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "29f8e67034efd44bf6ac6ca1f4793b695f3807047748929f279a2b48d26f1a60",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "1000",
+        "499994000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "1000",
+        "address": "simpleledger:qqagjfud5lt7pkt3x44hgv3lrk749t7f4g97jmr3fa",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": null,
+        "status": "UNSPENT",
+        "invalidReason": null
+      },
+      {
+        "slpAmount": "499994000",
+        "address": "simpleledger:qzu0zz642gte3w2vsavk556np5qtvhjsfsdg2y63w9",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "efaed167e9e77d552e4ca23ddcdf43b5eb385eba3a30989487d0e8edfe24a73a",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qrqqhpgnvnw85yj5nkx77dlu27unqlatn5tal83c7p",
+        "txid": "1e622f4ac075ab83f260e57b6df41352018e760608dc450f8f250aa3b8a59766",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "slpAmount": "499995000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": null
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1f8",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "5691fa7fbf62db3964d9bc01ef27cdb392a5051b2c225054dc502b4bfadd377e",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "1000",
+        "499999000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "1000",
+        "address": "simpleledger:qzd5sk803xqxlmcs6yfwtpwzesq75s5m9caa3n8led",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": "61043b0a3988f9294f1965bf6873750c128d9dbf341574acdbbba8753a3a184b",
+        "status": "SPENT_INVALID_SLP",
+        "invalidReason": "Output burned in an invalid SLP transaction"
+      },
+      {
+        "slpAmount": "499999000",
+        "address": "simpleledger:qpwutq2rrma9xgfa7zar387p9t8a7zcwc54tkqn33l",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "46fc864a8cc0bd8e993b4f95570ca3aba6c2ffe70a5301d5d324c5e1542caf5e",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qpqvx7xnchkueqc6svfp40unzhzzeqx9hgd3tvmkke",
+        "txid": "cf10ab91b1e4d4f8393b261e6287b7639b76b86d208ffb9c76aed7cd0412f9c7",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "slpAmount": "500000000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": 579690
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1fe",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "102e1e7d7a7cc9ce7704f54d23b6e17fe2acce90167d63c9795334363ed15ade",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "1000",
+        "499996000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "1000",
+        "address": "simpleledger:qpx59q9jj9v58khnfj93rcplvvzw2lhvfylapxmkdd",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": null,
+        "status": "UNSPENT",
+        "invalidReason": null
+      },
+      {
+        "slpAmount": "499996000",
+        "address": "simpleledger:qpdvpa44m0ss5e0sf7z3ftv6k945qt599qtf4uvqj5",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "1e622f4ac075ab83f260e57b6df41352018e760608dc450f8f250aa3b8a59766",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qrtxhcejc8y76wvvugxuarde46xhe8kfpye7uhe52u",
+        "txid": "4e9818e79d5a79180426bddf1d402294e43f878b7c622a710c8563d97e605872",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "slpAmount": "499997000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": null
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1fa",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "46fc864a8cc0bd8e993b4f95570ca3aba6c2ffe70a5301d5d324c5e1542caf5e",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "1000",
+        "499998000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "1000",
+        "address": "simpleledger:qpx59q9jj9v58khnfj93rcplvvzw2lhvfylapxmkdd",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": "3ba6c0e301c13af7fd5048e9874b981096640d7f961890c096dbde42c6fa88a1",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      },
+      {
+        "slpAmount": "499998000",
+        "address": "simpleledger:qpcsneurpfj2x69f4397936zvftwgras0v72h39zk7",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "4e9818e79d5a79180426bddf1d402294e43f878b7c622a710c8563d97e605872",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qpwutq2rrma9xgfa7zar387p9t8a7zcwc54tkqn33l",
+        "txid": "5691fa7fbf62db3964d9bc01ef27cdb392a5051b2c225054dc502b4bfadd377e",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "slpAmount": "499999000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": 582688
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1f6",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "cf10ab91b1e4d4f8393b261e6287b7639b76b86d208ffb9c76aed7cd0412f9c7",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "500000000",
+        "99499899000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "500000000",
+        "address": "simpleledger:qpqvx7xnchkueqc6svfp40unzhzzeqx9hgd3tvmkke",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": "5691fa7fbf62db3964d9bc01ef27cdb392a5051b2c225054dc502b4bfadd377e",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      },
+      {
+        "slpAmount": "99499899000",
+        "address": "simpleledger:qpfuqzv9vuuz7qp5x7spdmwvgl0pgdn5dy9lfc4kr0",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "5d8ee343bb2022e67f13d33a2af8285a3ab7c0c6abced009026c66a1f40dd6b5",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qpfuqzv9vuuz7qp5x7spdmwvgl0pgdn5dy9lfc4kr0",
+        "txid": "58b6f8142b608e9ac289b92bd1aee6fac51d8172268d4012f4b2fcb3dbe52d4f",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "slpAmount": "99999899000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": 576663
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1f2",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "d9f1c4833aa9b6e91d589c46783ec4c7e6225b754d1c0d8cd06a7d65bc71e696",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "100000",
+        "99999900000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "100000",
+        "address": "simpleledger:qpqsaw9y8kpvphdrw2cyyllgw3539r3lugeccnd973",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": "350c7748581a3c73eb804f0f9d1fc4b8cbd4a3ead26dbce0e670762066664fdc",
+        "status": "SPENT_INVALID_SLP",
+        "invalidReason": "Output burned in an invalid SLP transaction"
+      },
+      {
+        "slpAmount": "99999900000",
+        "address": "simpleledger:qpfuqzv9vuuz7qp5x7spdmwvgl0pgdn5dy9lfc4kr0",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "58b6f8142b608e9ac289b92bd1aee6fac51d8172268d4012f4b2fcb3dbe52d4f",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qpfuqzv9vuuz7qp5x7spdmwvgl0pgdn5dy9lfc4kr0",
+        "txid": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "slpAmount": "100000000000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": 581139
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1f0",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+    "details": {
+      "decimals": 0,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "GENESIS",
+      "versionType": 1,
+      "documentUri": "THE REAL HONK SLP TOKEN",
+      "documentSha256Hex": null,
+      "symbol": "HONK",
+      "name": "HONK HONK",
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": "100000000000",
+      "sendOutputs": null
+    },
+    "outputs": [
+      {
+        "slpAmount": "100000000000",
+        "address": "simpleledger:qpfuqzv9vuuz7qp5x7spdmwvgl0pgdn5dy9lfc4kr0",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": "d9f1c4833aa9b6e91d589c46783ec4c7e6225b754d1c0d8cd06a7d65bc71e696",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
 
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": 576643
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1f4",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "58b6f8142b608e9ac289b92bd1aee6fac51d8172268d4012f4b2fcb3dbe52d4f",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "1000",
+        "99999899000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "1000",
+        "address": "simpleledger:qqlrp877u325llq0n5zv2cuxjr40q6n23utyg4rnnu",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": null,
+        "status": "UNSPENT",
+        "invalidReason": null
+      },
+      {
+        "slpAmount": "99999899000",
+        "address": "simpleledger:qpfuqzv9vuuz7qp5x7spdmwvgl0pgdn5dy9lfc4kr0",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "cf10ab91b1e4d4f8393b261e6287b7639b76b86d208ffb9c76aed7cd0412f9c7",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qpfuqzv9vuuz7qp5x7spdmwvgl0pgdn5dy9lfc4kr0",
+        "txid": "d9f1c4833aa9b6e91d589c46783ec4c7e6225b754d1c0d8cd06a7d65bc71e696",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "slpAmount": "99999900000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": null
+  }
+}
+{
+  "_id": "5fd343796c6314e1c0f4b1fc",
+  "tokenDetails": {
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1"
+  },
+  "graphTxn": {
+    "txid": "4e9818e79d5a79180426bddf1d402294e43f878b7c622a710c8563d97e605872",
+    "details": {
+      "decimals": null,
+      "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+      "timestamp": null,
+      "timestamp_unix": null,
+      "transactionType": "SEND",
+      "versionType": 1,
+      "documentUri": null,
+      "documentSha256Hex": null,
+      "symbol": null,
+      "name": null,
+      "batonVout": null,
+      "containsBaton": false,
+      "genesisOrMintQuantity": null,
+      "sendOutputs": [
+        "0",
+        "1000",
+        "499997000"
+      ]
+    },
+    "outputs": [
+      {
+        "slpAmount": "1000",
+        "address": "simpleledger:qpx59q9jj9v58khnfj93rcplvvzw2lhvfylapxmkdd",
+        "vout": 1,
+        "bchSatoshis": 546,
+        "spendTxid": null,
+        "status": "UNSPENT",
+        "invalidReason": null
+      },
+      {
+        "slpAmount": "499997000",
+        "address": "simpleledger:qrtxhcejc8y76wvvugxuarde46xhe8kfpye7uhe52u",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "spendTxid": "102e1e7d7a7cc9ce7704f54d23b6e17fe2acce90167d63c9795334363ed15ade",
+        "status": "SPENT_SAME_TOKEN",
+        "invalidReason": null
+      }
+    ],
+    "inputs": [
+      {
+        "address": "simpleledger:qpcsneurpfj2x69f4397936zvftwgras0v72h39zk7",
+        "txid": "46fc864a8cc0bd8e993b4f95570ca3aba6c2ffe70a5301d5d324c5e1542caf5e",
+        "vout": 2,
+        "bchSatoshis": 546,
+        "slpAmount": "499998000"
+      }
+    ],
+    "_blockHash": "AAAAAAAAAAABQAx0v26lmvl2gLtu5biRjwKWeVGR3FY=",
+    "_pruneHeight": null
+  }
+}
