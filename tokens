@@ -1,0 +1,32 @@
+{
+  "_id": "5fd343796c6314e1c0f4b21a",
+  "schema_version": 79,
+  "lastUpdatedBlock": 669651,
+  "tokenDetails": {
+    "decimals": 0,
+    "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
+    "timestamp": "2019-04-03 11:28:58",
+    "timestamp_unix": 1554290938,
+    "transactionType": "GENESIS",
+    "versionType": 1,
+    "documentUri": "THE REAL CYBERCORE SLP TOKEN",
+    "documentSha256Hex": null,
+    "symbol": "cc",
+    "name": "cybercore",
+    "batonVout": null,
+    "containsBaton": false,
+    "genesisOrMintQuantity": "100000000000",
+    "sendOutputs": null
+  },
+  "mintBatonUtxo": "",
+  "mintBatonStatus": "DEAD_ENDED",
+  "tokenStats": {
+    "block_created": 576633,
+    "approx_txns_since_genesis": 356773
+  },
+  "_pruningState": {
+    "pruneHeight": 669381,
+    "sendCount": 305363,
+    "mintCount": 0
+  }
+}
