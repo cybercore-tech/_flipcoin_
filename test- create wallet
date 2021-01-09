@@ -1,4 +1,4 @@
-npm i minimal-slp-wallet
+npm i karma-firefox-launcher
 $ electron-cash --testnet
 TOKEN_ID="7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1" # SLP token id (64 character hex string)
 $ electron-cash getbalance_slp $TOKEN_ID
