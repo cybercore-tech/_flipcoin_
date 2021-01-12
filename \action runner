@@ -1,0 +1,6 @@
+./gitlab-runner.exe register
+$mkdir actions-runner; cd actions-runner
+$Invoke-WebRequest -Uri https://github.com/actions/runner/releases/download/v2.275.1/actions-runner-win-x64-2.275.1.zip -OutFile actions-runner-win-x64-2.275.1.zip
+$Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$PWD/actions-runner-win-x64-2.275.1.zip", "$PWD")
+$./config.cmd --url https://github.com/cybercore-tech/cybercoin-info --token ASI4CVS5ECQ66GYN4RIDTV277WSWU
+$./run.cmd
