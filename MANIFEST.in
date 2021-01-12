@@ -1,1 +1,2 @@
 var bchJs = require("@csnajst/bch-js")
+$dependencies npm
