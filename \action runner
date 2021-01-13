@@ -4,3 +4,4 @@ $Invoke-WebRequest -Uri https://github.com/actions/runner/releases/download/v2.2
 $Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$PWD/actions-runner-win-x64-2.275.1.zip", "$PWD")
 $./config.cmd --url https://github.com/cybercore-tech/cybercoin-info --token ASI4CVS5ECQ66GYN4RIDTV277WSWU
 $./run.cmd
+$"karma start"
