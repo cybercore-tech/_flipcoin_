@@ -3,7 +3,7 @@
   "schema_version": 79,
   "lastUpdatedBlock": 669651,
   "tokenDetails": {
-    "decimals": 0,
+    "decimals": 30,
     "tokenIdHex": "7f8889682d57369ed0e32336f8b7e0ffec625a35cca183f4e81fde4e71a538a1",
     "timestamp": "2021-10-01 11:28:58",
     "timestamp_unix": 1554290938,
